@@ -17,4 +17,4 @@ COPY . .
 
 # TODO: configure the resolver and install the base libraries
 RUN stack install --resolver ${RESOLVER} \
-        cryptonite
+        cryptonite --flag cryptonite:-use_target_attributes

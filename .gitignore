@@ -1,0 +1,12 @@
+.stack-work/
+build/
+*~
+
+*.toml
+!*.sample.toml
+
+data
+
+# ignore all build files
+*.yaml.lock
+*.cabal
