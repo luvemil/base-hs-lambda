@@ -17,5 +17,4 @@ COPY . .
 
 # TODO: configure the resolver and install the base libraries
 RUN stack install --resolver ${RESOLVER} \
-        aws-lambda-haskell-runtime \
-        aeson
+        cryptonite
