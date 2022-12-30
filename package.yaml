@@ -12,7 +12,24 @@ dependencies:
 - base >= 4.7 && < 5
 - aws-lambda-haskell-runtime >= 3.0.0
 - aeson
-- cryptonite
+- polysemy
+- polysemy-plugin
+- amazonka
+- amazonka-dynamodb
+- containers
+- text
+- lens
+- generic-lens
+- transformers
+- filepath
+- wreq
+- bytestring
+- http-types
+- optparse-generic
+- tomland
+- case-insensitive
+- scalpel
+
 
 # library:
 #   source-dirs: src
