@@ -46,6 +46,7 @@ RUN stack install --resolver ${RESOLVER} \
         polysemy \
         polysemy-plugin \
         amazonka \
+        amazonka-s3 \
         amazonka-dynamodb \
         containers \
         text \

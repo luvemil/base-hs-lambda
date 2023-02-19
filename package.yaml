@@ -15,6 +15,7 @@ dependencies:
 - polysemy
 - polysemy-plugin
 - amazonka
+- amazonka-s3
 - amazonka-dynamodb
 - containers
 - text
